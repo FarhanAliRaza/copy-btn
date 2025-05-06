@@ -2,6 +2,9 @@
 
 A silent, minimal Zsh plugin that allows you to copy the output of your last terminal command with a simple keyboard shortcut.
 
+## Use Case
+When coding with a llm you run a command and then copy paste the ouput to paste in the context of the llm. In this way you just have to use Alt [Option] + c to copy the output of your last command. Untill we don't need to do that  Adios 💀
+
 ## Features
 
 - Silently captures the output of commands
