@@ -57,7 +57,7 @@ echo "source ~/.zsh/plugins/copy-btn/copy-btn.plugin.zsh" >> ~/.zshrc
 ## Usage
 
 1. Run any command in your terminal
-2. Press `Alt+c` to copy the output to your clipboard
+2. Press `Alt+c` to copy the output to your clipboard (on macOS, use `Option+c` as Option is the equivalent of Alt)
 3. Paste anywhere with `Ctrl+v` or `Cmd+v`
 
 ### Toggle capture on/off
@@ -70,7 +70,7 @@ copy-btn-toggle
 
 ## Configuration
 
-By default, `copy-btn` binds to `Alt+c`. To change this, add to your `~/.zshrc` after loading the plugin:
+By default, `copy-btn` binds to `Alt+c` (on macOS, this is `Option+c`). To change this, add to your `~/.zshrc` after loading the plugin:
 
 ```bash
 # Rebind to a different key (example: Ctrl+g)
